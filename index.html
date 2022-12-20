@@ -12,9 +12,14 @@
 <body>
 <div id="app" >
     <div class="container mt-5" >
+        <div class="row text-center" >
+            <div class="col-6" >
+                <h3>Todo List</h3>
+            </div>
+        </div>
         <div class="row" >
-            <div class="col-12" >
-                <div class="d-flex justify-content-around card w-50" >
+            <div class="col-6" >
+                <div class="d-flex justify-content-around card " >
                     <ul class="list-unstyled" >
                         <li class="list-item" v-for="(item,index) in todo">
                             {{index}} - {{item.text}}
