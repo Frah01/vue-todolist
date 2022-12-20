@@ -13,17 +13,17 @@
 <div id="app" >
     <div class="container mt-5" >
         <div class="row text-center" >
-            <div class="col-6" >
+            <div class="col-8" >
                 <h3>Todo List</h3>
             </div>
         </div>
         <div class="row" >
-            <div class="col-6" >
-                <div class="d-flex justify-content-around card " >
+            <div class="col-8" >
+                <div class="card " >
                     <ul class="list-unstyled" >
-                        <li class="list-item" v-for="(item,index) in todo">
+                        <li class="list-item" v-for="(item,index) in todo" >
                             {{index}} - {{item.text}}
-                            <button class="button"  @click="removeTask(index)">
+                            <button class="button mx-3"  @click="removeTask(index)">
                                 <i class="fa solid fa-trash"></i>
                             </button>
                         </li>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="row mt-2" >
-            <div class="col-6" >
+            <div class="col-8" >
                 <div class="d-flex" >
                     <input type="text" class="form-control" placeholder="Aggiungi un nuovo task" v-model="newTask" @keyup.enter="addTask">
                     <button class="btn btn-primary mx-1" @click="addTask" >Aggiungi</button>
