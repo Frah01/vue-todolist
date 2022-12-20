@@ -9,3 +9,18 @@
     padding: 10px;
     font-size: 20px;
 }
+
+.button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(194, 0, 0);
+    color: white;
+
+}
+
+.button:hover {
+    background-color: rgb(184, 0, 0);
+ 
+
+}
