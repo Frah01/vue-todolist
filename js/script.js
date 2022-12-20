@@ -41,6 +41,9 @@ createApp({
                 }
                 this.todo.push(object)
                 this.newTask = '';
+            },
+            removeTask(index){
+                this.todo.splice(index,1)
             }
     },
 }).mount('#app')
