@@ -48,7 +48,7 @@ createApp({
             check(index){
                 let task = this.todo[index];
 
-                if(task.done === true){
+                if(task.done == true){
                     task.done = false;
                 }
 
