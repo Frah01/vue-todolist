@@ -21,7 +21,7 @@
             <div class="col-8" >
                 <div class="card " >
                     <ul class="list-unstyled" >
-                        <li class="list-item" v-for="(item,index) in todo" >
+                        <li class="list-item" v-for="(item,index) in todo" @click="check(index)" >
                             {{index}} - {{item.text}}
                             <button class="button mx-3"  @click="removeTask(index)">
                                 <i class="fa solid fa-trash"></i>
