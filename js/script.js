@@ -3,6 +3,7 @@ const {createApp} = Vue
 createApp({
     data(){
         return{
+            activeItem: 0,
             todo : [
                 {
                     text : 'Andare a fare la spesa',
