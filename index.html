@@ -24,7 +24,7 @@
                         <li class="list-item" v-for="(item,index) in todo" @click="check(index)" :class="item.done ? 'text-linethrough' : '' ">
                             {{index}} - {{item.text}}
                             <button class="button mx-3"  @click="removeTask(index)">
-                                <i class="fa solid fa-trash"></i>
+                                <i class="fa-solid fa-xmark"></i>
                             </button>
                         </li>
                     </ul>
