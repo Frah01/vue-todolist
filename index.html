@@ -20,7 +20,7 @@
         <div class="row" >
             <div class="col-8" >
                 <div class="card " >
-                    <ul class="list-unstyled" >
+                    <ul class="list-unstyled w-75" >
                         <li class="list-item" v-for="(item,index) in todo" @click="check(index)" :class="item.done ? 'text-linethrough' : '' ">
                             {{index}} - {{item.text}}
                             <button class="button mx-3"  @click="removeTask(index)">
