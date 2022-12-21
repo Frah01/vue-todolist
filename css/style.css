@@ -27,3 +27,7 @@
  
 
 }
+
+.text-linethrough{
+    text-decoration: line-through;
+}

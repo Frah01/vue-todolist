@@ -7,7 +7,7 @@ createApp({
             todo : [
                 {
                     text : 'Andare a fare la spesa',
-                    done : false,
+                    done : true,
                 },
                 {
                     text : 'Esercitarsi',
@@ -15,7 +15,7 @@ createApp({
                 },
                 {
                     text : 'Andare in palestra',
-                    done : false,
+                    done : true,
                 },
                 {
                     text : 'Lavare il cane',
@@ -23,7 +23,7 @@ createApp({
                 },
                 {
                     text : 'Cucinare',
-                    done : false,
+                    done : true,
                 },
                 {
                     text : 'Fare la doccia',
